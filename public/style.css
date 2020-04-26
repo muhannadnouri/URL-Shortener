@@ -28,39 +28,42 @@ form{
 .header span {
     font-style: italic;
 }
-.desc{
+.desc {
     margin-top :2px;
     color: bisque;
 }
-.base-url{
+.base-url {
+    color: white;
     padding: 10px;
-    background-color: #a7a7a7;
-    border-radius: 8px;
-    border: 1px solid black;
+    background-color: #383838;
+    border: 1px solid white;
+    border-radius: 5px;
     width: 110px;
     font-weight: bold;
     font-family: 'Roboto';
 }
 
-.unique-input{
+.unique-input {
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 5px;
     outline: none;
-    border: 1px solid black;
+    border: 1px solid white;
     font-family: 'Roboto';
 }
-.url-input{
-    border-radius: 8px;
+.url-input {
+    border: 1px solid white;
+    border-radius: 5px;
     padding: 10px;
     width: 300px;
     outline : none;
     font-family: 'Roboto';
 }
 
-button{
+button {
+    border: 1px solid white;
     background-color: white;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     cursor: pointer;
     font-family: 'Roboto';
