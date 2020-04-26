@@ -1,5 +1,5 @@
 
-#### Running Instruction
+#### Running Instructions
 - `npm install`
 - Make sure you have MongoDB installed and run using `mongo` command
 - `npm run dev`
