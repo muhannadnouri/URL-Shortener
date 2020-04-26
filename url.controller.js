@@ -1,14 +1,12 @@
 const URL = require('./url.model.js')
 
-const baseURL = process.env.BASE_URL ?? 'http://localhost:3000'
+const baseURL = process.env.BASE_URL || 'http://localhost:3000'
 
 const createShortLink = async (req, res) => {
     let { originalUrl, uniqueName } = req.body
-    console.log(originalUrl, uniqueName)
 
     try {
         let nameExists = await URL.findOne({ uniqueName })
-        console.log(nameExists)
 
         if (nameExists) {
             return res.status(403).json({

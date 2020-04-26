@@ -9,7 +9,7 @@ const {
     openShortLink
 } = require('./url.controller.js')
 
-const PORT = process.env.PORT ?? 3000
+const PORT = process.env.PORT || 3000
 
 const app = express()
 
