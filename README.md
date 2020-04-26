@@ -1,4 +1,9 @@
 
+#### Tailing Heroku Logs
+Using the Heroku CLI
+- `heroku logs --tail --app <application-name>
+- `heroku logs --tail --app boxurl
+
 #### Deployment
 Site is deployed at https://boxurl.herokuapp.com/
 
