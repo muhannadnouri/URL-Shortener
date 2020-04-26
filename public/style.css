@@ -35,34 +35,39 @@ form{
 .base-url{
     padding: 10px;
     background-color: #a7a7a7;
-    border-radius: 8px 0 0 8px;
+    border-radius: 8px;
     border: 1px solid black;
     width: 100px;
-    font-weight: bold
+    font-weight: bold;
+    font-family: 'Roboto';
 }
 
 .unique-input{
     padding: 10px;
-    border-radius: 0 8px 8px 0;
+    border-radius: 8px;
     outline: none;
     border: 1px solid black;
+    font-family: 'Roboto';
 }
 .url-input{
     border-radius: 8px;
     padding: 10px;
     width: 300px;
     outline : none;
+    font-family: 'Roboto';
 }
 
 button{
-    background-color: burlywood;
+    background-color: white;
     padding: 10px;
     border-radius: 10px;
     outline: none;
     cursor: pointer;
+    font-family: 'Roboto';
 }
 
 #confirmationShow {
+    color: bisque;
     font-style: italics;
 }
 
@@ -86,3 +91,23 @@ button{
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
