@@ -1,6 +1,6 @@
 const URL = require('./url.model.js')
 
-const baseURL = process.env.BASE_URL || 'http://localhost:3000'
+const baseURL = process.env.BASE_URL ?? 'http://localhost:3000'
 
 const createShortLink = async (req, res) => {
     let { originalUrl, uniqueName } = req.body
