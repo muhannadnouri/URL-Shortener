@@ -1,4 +1,9 @@
 
+#### Running Instruction
+- `npm install`
+- Make sure you have MongoDB installed and run using `mongo` command
+- `npm run dev`
+
 #### Resources
 - [Install MongoDB Community on macOS using .tgz Tarbal](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x-tarball/
 )
