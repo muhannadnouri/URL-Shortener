@@ -18,5 +18,6 @@ Site is deployed at https://boxurl.herokuapp.com/
 - [Minimal NodeJS Babel Setup](https://www.robinwieruch.de/minimal-node-js-babel-setup
 )
 - [Build URL Shortener Service with NodeJS and MongoDB. Deploy to Azure.](https://dev.to/olamideaboyeji/building-a-url-shortening-service-with-nodejs-and-mongobb-deploy-to-azure-oep)
+- [URL Shortener with Express and TypeScript](https://smcllw.me/posts/url-shortener/)
 - [Serving Static Files in Express
 ](https://expressjs.com/en/starter/static-files.html)
